@@ -9,7 +9,7 @@ strategy:
     go: ['1.16', '1.17']
 jobs:
   check-application:
-    runs-on: ubuntu-latesst
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-go@v2
